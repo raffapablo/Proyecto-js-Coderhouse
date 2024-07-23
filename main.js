@@ -161,7 +161,7 @@ const pagar = () => {
          monto = parseInt(prompt ('Ingrese el monto de su compra'))
         alert ('Su pago a abonar es de $' + monto / 100 * 80)
         break
-    default: alert ('Error \n Ingrese nuevamente el monto y la forma de pago')
+    default: alert ('Error \n Ingrese nuevamente el monto y la forma de pago \n\n\n En este punto NO debe escribir un caracter numerico del 1 al 5 si no que debe escribir la opcion deseada \n Ejemplo: "efectivo" ')
     
    }
 }
